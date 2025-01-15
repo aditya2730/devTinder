@@ -1,5 +1,4 @@
 const express = require("express");
-const { User } = require("../model/user");
 const { ConnectionRequest } = require("../model/connectionRequest");
 const {
   connectionRequestSendValidation,

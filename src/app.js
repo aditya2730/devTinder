@@ -10,8 +10,8 @@ const cors = require("cors");
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:3000", // Your React app's URL
-  credentials: true, // Allow cookies to be sent and received
+  origin: "http://localhost:5173",
+  credentials: true,
 };
 app.use(cors(corsOptions));
 app.use(express.json());
